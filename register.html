@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <title>register</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="wrapper">
+          <figure>
+            <img src="./assets/images/Register/smile.png" alt="smile" />
+          </figure>
+          <div class="info">
+            <div class="text">
+              <h1>create account</h1>
+              <p>
+                Go ahead and sign up, let everyone know how awesome you are!
+              </p>
+            </div>
+            <form id="my-form" action="">
+              <div class="input-cont">
+                <input
+                  type="text"
+                  id="user-name-input"
+                  placeholder="Username"
+                />
+                <div class="error"></div>
+              </div>
+              <div class="input-cont">
+                <input type="email" id="email-input" placeholder="Email" />
+                <div class="error"></div>
+              </div>
+              <div class="input-cont">
+                <input
+                  type="password"
+                  id="password-input"
+                  placeholder="Password"
+                />
+                <div class="error"></div>
+              </div>
+              <div class="input-cont">
+                <input
+                  type="password"
+                  id="confirm-password-input"
+                  placeholder="Confirm password"
+                />
+                <div class="error"></div>
+              </div>
+              <button id="submit-btn" class="btn btn-primary" type="submit">
+                Create Account
+              </button>
+              <a class="btn btn-secondery" href="#"
+                >I already have an account</a
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

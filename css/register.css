@@ -1,0 +1,83 @@
+.wrapper .info {
+  margin-top: 0;
+}
+.wrapper h1 {
+  font-size: 42px;
+}
+.wrapper p {
+  padding-right: 14px;
+}
+.input-cont {
+  position: relative;
+}
+.input-cont::after {
+  content: url(../assets/images/Register/Divider.svg);
+  position: absolute;
+  left: 50px;
+  top: 19px;
+}
+input {
+  width: 100%;
+  padding: 22px 61px;
+  border: 1px solid #dbe3ff;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: 20px 19px;
+}
+#user-name-input {
+  background-image: url("../assets/images/Register/User.svg");
+}
+#email-input {
+  background-image: url("../assets/images/Register/EnvelopeSimple.svg");
+}
+input[type="password"] {
+  background-image: url("../assets/images/Register/LockKey.svg");
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #3b3b3b;
+  font-family: "Mulish-Regular";
+}
+.input-cont .error {
+  font-family: "Mulish-Bold";
+  margin: 0 0 10px 15px;
+  color: #dd3d45;
+}
+input.danger-border {
+  border-color: #dd3d45;
+}
+input.success-border {
+  border-color: #42a846;
+}
+.wrapper .btn {
+  width: 100%;
+  text-align: center;
+}
+.wrapper .btn-primary {
+  margin-top: 10px;
+}
+.wrapper .btn-secondery {
+  margin-top: 20px;
+}
+/* Start media query */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Tablet Screen Rules  */
+  .wrapper figure img {
+    width: 317px;
+    height: 562px;
+  }
+}
+@media (min-width: 992px) {
+  .wrapper figure img {
+    width: 450px;
+    height: 602px;
+  }
+}
+@media (max-width: 1050px) {
+  .wrapper h1 {
+    font-size: 32px;
+  }
+}
+/* End media query */
